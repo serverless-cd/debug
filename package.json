@@ -55,5 +55,9 @@
   "browser": "./src/browser.js",
   "engines": {
     "node": ">=6.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   }
 }
