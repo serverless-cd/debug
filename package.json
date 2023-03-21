@@ -1,5 +1,5 @@
 {
-  "name": "debug",
+  "name": "@serverless-cd/debug",
   "version": "4.3.4",
   "repository": {
     "type": "git",

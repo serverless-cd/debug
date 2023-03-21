@@ -191,7 +191,8 @@ function getDate() {
  */
 
 function log(...args) {
-	return process.stderr.write(util.format(...args) + '\n');
+	// fix: not work in fc event function
+	return console.log(util.format(...args));
 }
 
 /**
